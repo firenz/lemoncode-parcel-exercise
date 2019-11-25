@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+const React = require("react");
+const ReactDOM =  require("react-dom");
 
 ReactDOM.render(
-  <p class="react-footer">
+  <p className="react-footer">
     Footer provided by React DOM, made by{" "}
     <a href="mailto:alicia.guardenoalbertos@gmail.com">Alicia G.</a>
   </p>,
