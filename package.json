@@ -4,7 +4,9 @@
   "description": "Basic project with parcel configured as an exercise for the Lemoncode Front-End Master",
   "main": "index.js",
   "scripts": {
-    "build": "parcel ./src/index.html"
+    "start": "rimraf dist && parcel ./src/index.html --open",
+    "build": "rimraf && parcel ./src/index.html",
+    "build:prod": "rimraf && parcel build ./src/index.html"
   },
   "keywords": [
     "lemoncode",
@@ -15,6 +17,7 @@
   "author": "Alicia Guardeño <alicia.guardenoalbertos@gmail.com> (https://github.com/firenz)",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.0"
   }
 }
