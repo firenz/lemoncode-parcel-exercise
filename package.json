@@ -1,0 +1,17 @@
+{
+  "name": "lemoncode-parcel",
+  "version": "1.0.0",
+  "description": "Basic project with parcel configured as an exercise for the Lemoncode Front-End Master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lemoncode",
+    "master",
+    "parcel",
+    "exercise"
+  ],
+  "author": "Alicia Guardeño <alicia.guardenoalbertos@gmail.com> (https://github.com/firenz)",
+  "license": "MIT"
+}
